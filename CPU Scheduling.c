@@ -175,7 +175,7 @@ void prio()
                 avg_wt+=p[i].wt;
         }
 
-        printf("\nSJF SCHEDULING\nPID     |       AT      |       BT      |       CT      |       TAT     |       WT\n");
+        printf("\nPRIORITY SCHEDULING\nPID     |       AT      |       BT      |       CT      |       TAT     |       WT\n");
         for(i=0;i<n;i++)
         {
                 printf("\n%d	|       %d	|       %d	|       %d	|       %d	|       %d\n",p[i].pid,p[i].at,p[i].bt,p[i].ct,p[i].tat,p[i].wt);
@@ -256,7 +256,7 @@ void rdrb()
                 avg_wt+=p[i].wt;
         }
 
-        printf("\nSJF SCHEDULING\nPID     |       AT      |       BT      |       CT      |       TAT     |       WT\n");
+        printf("\nROUND ROBIN SCHEDULING\nPID     |       AT      |       BT      |       CT      |       TAT     |       WT\n");
         for(i=0;i<n;i++)
         {
                 printf("\n%d	|	%d	|       %d	|       %d	|       %d	|       %d\n",p[i].pid,p[i].at,p[i].bt,p[i].ct,p[i].tat,p[i].wt);
